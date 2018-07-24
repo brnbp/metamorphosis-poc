@@ -1,14 +1,3 @@
 ### Metamorphosis - powered by Kafka
 
-```
-$ docker-compose build
-```
-```
-$ docker-compose up -d
-```
-
-running local:
-
-- localhost:8080/producer.php
-
-- localhost:8080/consumer.php
+This project is a first hands on for Kafka, with PHP and NodeJS approach
