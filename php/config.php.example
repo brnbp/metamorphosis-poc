@@ -1,0 +1,8 @@
+<?php
+
+return [
+    'broker' => 'kafka_host:port',
+    'topics' => [
+        'some.topic',
+    ],
+];
