@@ -9,7 +9,7 @@ RUN apt-get update \
 
 RUN cd /tmp && mkdir librdkafka &&  cd librdkafka \
     && git clone https://github.com/edenhill/librdkafka.git . \
-    && ./configure \\
+    && ./configure \
     && make \
     && make install
 
