@@ -10,7 +10,7 @@ $conf->set('ssl.key.location', __DIR__.'/cert/kafka.key');
 
 // Configure the group.id. All consumer with the same group.id will consume
 // different partitions.
-$conf->set('group.id', 'myConsumerGroup');
+$conf->set('group.id', $config['group']);
 
 // Initial list of Kafka brokers
 $conf->set('metadata.broker.list', $config['broker']);

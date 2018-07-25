@@ -5,4 +5,5 @@ return [
     'topics' => [
         'some.topic',
     ],
+    'group' => 'MyGroupUniqueId'
 ];
